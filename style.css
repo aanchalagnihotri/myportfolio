@@ -1,0 +1,50 @@
+body{
+    font-family: "Handlee", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    background: linear-gradient(135deg, #F1FAEE, #A8DADC);
+}
+
+#about, #contact {
+    background: linear-gradient(135deg, #F1FAEE, #2A9D8F);
+
+}
+
+img{
+    border-radius: 20px;
+}
+
+.logo {
+    transition: transform 0.3s ease, filter 0.3s ease; 
+    width: auto;
+    height: auto; 
+  }
+  
+  .logo:hover {
+    transform: scale(1.2); 
+    filter: brightness(1.1); 
+  }
+  
+
+.nav-link{
+    color: black;
+    font-size: 18px;
+}
+
+.logo{
+    height: 60px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    #contact img {
+      max-width: 100%;  
+    }
+    #contact h1 {
+      font-size: 1.5rem; 
+    }
+    #contact p {
+      font-size: 1rem; 
+    }
+  }
+  
